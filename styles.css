@@ -108,7 +108,7 @@ body{
 
 .sign-up{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 150px;
     padding: 50px;
     background-color: #3882f6;
@@ -120,8 +120,11 @@ body{
     font-weight: 700;
 }
 
-#game-on{
-    border:2px solid #F9FAF8;
+.footer{
+    background-color: #1f2937;
+    color: #F9FAF8;
+    text-align: center;
+    padding: 20px;
 }
 
 button{
@@ -130,6 +133,10 @@ button{
     border: none;
     padding: 10px 30px;
     border-radius: 5px;
+}
+
+#game-on{
+    border:2px solid #F9FAF8;
 }
 
 ul{
@@ -154,4 +161,5 @@ a{
 
 img{
     border: 5px solid #3882f6;
+    border-radius: 15px;
 }
